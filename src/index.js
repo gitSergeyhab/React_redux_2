@@ -12,6 +12,7 @@ import store from './store';
 import './index.scss';
 
 const restoService = new RestoService();
+// restoService.getMenuItems().then(res => console.log(res))
 
 ReactDOM.render(
     <Provider store={store}>
